@@ -1,0 +1,28 @@
+/* Dark cyan */
+$primary: hsl(158, 36%, 37%);
+$hover: hsl(158, 36%, 29%);
+/* Cream */
+$secondary: hsl(32, 37%, 92%);
+/* Very Dark blue */
+$succes: hsl(30, 38%, 92%);
+/* Dark grayish blue */
+$info: hsl(228, 12%, 48%);
+/* white */
+$warning: hsl(0, 0%, 100%);
+/* breakpoints */
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
+$font-size: 15px;
+
+/* font omntserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+$montserrat: 'Montserrat', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+$faunces: 'Fraunces', serif;
+
+$border-radius: 15px 15px 0 0 ;
